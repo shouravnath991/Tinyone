@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+/* manu start */
+.navbar{
+    background: #FCDB00;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-weight: 700;
+    margin-right: 40px;
+    font-size: 18px;
+}
+/* manu end */
+/* slider start */
+.slider{
+    background: #FCDB00;
+    
+}
+.slider_img {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.slider_text {
+    margin-top: 180px;
+    margin-right: 155px;
+}
+.slider_text h4{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+.slider_text span{
+    font-size: 20px;
+}
+.slider_text p{
+    font-size: 16px;
+    margin-top: 28px;
+}
+.slider_text ul{
+    list-style: none;
+    padding: 0;
+}
+.slider_text ul li{
+    display: inline-block;
+    margin-right: 25px;
+}
+.slider_text li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+}
+/* slider end */
+/* feature start */
+.feature_head {
+    margin: 0 180px;
+}
+.feature_head h3 {
+    font-weight: 700;
+    font-size: 32px;
+}
+.feature_head {
+    font-size: 20px;
+}
+.feature_text{
+    display: flex;
+    margin-top: 50px;
+}
+.icon {
+    margin-right: 25px;
+    font-size: 35px;
+}
+.feature_text .text h5 {
+    font-weight: 700;
+    font-size: 22px;
+}
+.feature_text .text p {
+    font-size: 18px;
+    color: #898989;
+}
+/* feature end */
+/* contact start */
+.contact{
+    background: #000;
+}
+.contact_head h3{
+    color: #FCDB00;
+}
+.contact_head p{
+    color: #898989;
+}
+.contact_icon{
+    padding-top: 50px;
+}
+.contact_icon ul{
+    list-style: none;
+    padding: 0;
+}
+.contact_icon ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.contact_icon ul li a{
+    text-decoration: none;
+    color: #FCDB00;
+    font-size: 40px;
+}
+.contact_form input {
+    padding: 18px 375px 18px 25px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+.contact_form button {
+    background: #FCDB00;
+    padding: 18px 36px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* contact end */
+/* footer start */
+.footer_text {
+    color: #fff;
+    margin-right: 195px;
+}
+.footer_text p{
+    margin: 0;
+    font-size: 16px;
+}
+.footer_text ul{
+    list-style: none;
+    padding: 0;
+}
+.footer_text li a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.footer_text li a:hover{
+    color: #FCDB00;
+}
+/* footer end */
